@@ -43,7 +43,6 @@ CELESTIA_NODENAME="sma"
 CELESTIA_WALLET="smaa"
 CELESTIA_CHAIN="smma"
 
-اطلاعات  داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
 به عنوان مثال :
 
 CELESTIA_NODENAME="amir" 
