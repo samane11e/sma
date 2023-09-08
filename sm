@@ -44,7 +44,6 @@ CELESTIA_WALLET="smaa"
 CELESTIA_CHAIN="smma"
 
 به عنوان مثال :
-
 CELESTIA_NODENAME="amir" 
 CELESTIA_WALLET="amir8372"
 CELESTIA_CHAIN="mamaki"
