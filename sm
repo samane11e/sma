@@ -153,8 +153,6 @@ wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar xf - \
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 
 -------------------------------------------------
----------------------------------
-قبل از ادامه، با کد زیر مطمئن شوید که به طور کامل با شبکه همگام شده اید 
 
 curl -s localhost:26657/status | grep block_height
 ------------------------------------------------
