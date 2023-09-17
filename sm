@@ -42,11 +42,8 @@ git clone https://github.com/celestiaorg/networks.git
 CELESTIA_NODENAME="sma" 
 CELESTIA_WALLET="smaa"
 CELESTIA_CHAIN="smma"
-
 CELESTIA_NODENAME="amir" 
 CELESTIA_WALLET="amir8372"
-CELESTIA_CHAIN="mamaki"
-
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
@@ -55,10 +52,8 @@ source $HOME/.bash_profile
 
 ------------------------------------------------
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
-
 -------------------------------------
 cp $HOME/networks/mamaki/genesis.json $HOME/.celestia-app/config/
-
 ---------------------------------------
 sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/config.toml
 
@@ -174,4 +169,4 @@ source $HOME/.bash_profile
  https://discord.gg/celestiacommunity
 
 ------------------------------------- 
-celestia-appd q bank balances xxxxxxxxxxxxx
+celestia-appd q bank balances xx
