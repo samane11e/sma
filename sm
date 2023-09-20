@@ -142,15 +142,14 @@ wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} s
 
 ------------------------------------------------------------------
 
-sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
-
+sudo systemctl restart celestia-appd && journalctl -u celestia-appd 
+good 
 -------------------------------------------------
 
 curl -s localhost:26657/status | grep block_height
 ------------------------------------------------
 
 slestia-appd keys add $CELESTIA_WALLET
-
 -----------------------------------
 CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a) 
 echo $CELESTIA_ADDR 
