@@ -59,8 +59,7 @@ sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/con
 BOOTSTRAP_PEERS=$(curl -sL https://raw.githubusercontent.com/celestiaorg/networks/master/mamaki/bootstrap-peers.txt | tr -d '\n'
 
 --------------------------------------------------
-echo $BOOTSTRAP_PEERS
-
+echo $BOOTSTRAP
 ------------------------------------------------
 sed -i.bak -e "s/^bootstrap-peers *=.*/bootstrap-peers = \"$BOOTSTRAP_PEERS\"/" $HOME/.celestia-app/config/config.toml
 
@@ -143,7 +142,7 @@ wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} s
 ------------------------------------------------------------------
 
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd 
-good 
+ 
 -------------------------------------------------
 
 curl -s localhost:26657/status | grep block_height
