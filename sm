@@ -130,9 +130,9 @@ sudo systemctl stop celestia-appd
 cd $HOME
 rm -rf ~/.celestia-app/data
 mkdir -p ~/.celestia-app/data
-SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
+SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia
     egrep -o ">mamaki.*tar" | tr -d ">")
-wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} s
+wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME}
     -C ~/.celestia-app/data/
 
 ------------------------------------------------------------------
@@ -155,9 +155,8 @@ CELESTIA_VALOPER=$(celestia-appd keys show $CELESTIA_WALLET --bech val -a)
 echo $CELESTIA_VALOPER 
 echo 'export CELESTIA_VALOPER='${CELESTIA_VALOPER} >> $HOME/.bash_profile 
 source $HOME/.bash_profile
-
---------------------------------------------
+---------------------------------------
  https://discord.gg/celestiacommunity
 
 ------------------------------------- 
-celestia-appd q bank balances xx
+celestia-appd q bank balances 
