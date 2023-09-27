@@ -3,7 +3,7 @@ for github
 ------------------------------------------
 sudo apt update && sudo apt upgrade -y
 ---------------------------------------------
-sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu -y
+sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu 
 -------------------------------------------------
 cd $HOME
 ver="1.18.3"
@@ -144,7 +144,7 @@ curl -s localhost:26657/status | grep block...
 
 slestia-appd keys add $CELESTIA_WALLET
 -----------------------------------
-CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a) 
+CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET 
 echo $CELESTIA_ADDR 
 echo 'export CELESTIA_ADDR='${CELESTIA_ADDR} >> $HOME/.bash_prof
 
