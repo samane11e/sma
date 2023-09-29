@@ -116,7 +116,7 @@ sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 ----------------------------------------------------
 sudo systemctl enable celestia-appd
 sudo systemctl daemon-reload
-sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
+sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o 
 ------------------------------------------------------------
 Press CTRL+C to stop the logs
 -------------------------------------------------------------
@@ -149,7 +149,7 @@ echo $CELESTIA_ADDR
 echo 'export CELESTIA_ADDR='${CELESTIA_ADDR} >> $HOME/.bash_prof
 
 ------------------------------------------------
-CELESTIA_VALOPER=$(celestia-appd keys show $CELESTIA_WALLET --bech val -a) 
+CELESTIA_VALOPER=$(celestia-appd keys show $CELESTIA_WALLET --bech val
 echo $CELESTIA_VALOPER 
 echo 'export CELESTIA_VALOPER='${CELESTIA_VALOPER} >> $HOME/.bash_profile 
 source $HOME/.bash_profile
