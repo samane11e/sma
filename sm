@@ -36,11 +36,11 @@ git clone https://github.com/celestiaorg/networks.git
 CELESTIA_NODENAME="sma" 
 CELESTIA_WALLET="smaa"
 CELESTIA_CHAIN="smma"
-CELESTIA_NODENAME xcc 
+CELESTIA_NODENAME sama ...
 CELESTIA_WALLET="amir8372"
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
-echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash...
+echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash
 echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $HOME/.bash_profile
 source $HOME/.bash_profile
 
