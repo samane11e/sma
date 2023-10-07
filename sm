@@ -156,6 +156,6 @@ source $HOME/.bash_profile
 venome_
 ---------------------------------------
  https://discord.gg/celestiacommunity
-
+wallet
 ------------------------------------- 
 celestia-appd q bank balances 
