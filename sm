@@ -38,7 +38,7 @@ CELESTIA_WALLET="smaa"
 CELESTIA_CHAIN="sama"
 CELESTIA_NODENAME sama 
 CELESTIA_WALLET="sama"
-----------------------------------------------------------
+--------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash
 echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $HOME/.bash_profile
@@ -108,7 +108,7 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
 [Install]
   WantedBy=multi-user.target
 EOF
-
+scrol
 ---------------------------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 
@@ -121,7 +121,7 @@ Press CTRL+C to stop the logs
 -------------------------------------------------------------
 
 sudo systemctl stop...
-sam.
+
 --------------------------------------------------------------
 venom
 --------------------------
