@@ -145,13 +145,12 @@ slestia-appd keys add $CELESTIA_WALLET
 CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET 
 echo $CELESTIA_ADDR 
 echo 'export CELESTIA_ADDR='${CELESTIA_ADDR} >> $HOME/.bash.
-
+project
 ------------------------------------------------
 CELESTIA_VALOPER=$(celestia-appd keys show $CELESTIA_WALLET
 echo $CELESTIA_VALOPER 
 echo 'export CELESTIA_VALOPER='${CELESTIA_VALOPER} >> $HOME/.bash_profile 
 source $HOME/.bash_profile 
-
 ---------------------------------------
  https://discord.gg/celestiacommunity
 wallet
