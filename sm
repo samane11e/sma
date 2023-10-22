@@ -120,9 +120,7 @@ Press CTRL+C to stop the logs
 
 sudo systemctl stop...
 
--------------------------------------------------------------
-venom
---------------------------------
+------------------------------------------------------------
 cd $HOME
 rm -rf ~/.celestia-app/data
 mkdir -p ~/.celestia-app/data
