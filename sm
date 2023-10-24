@@ -90,7 +90,7 @@ sed -i 's/snapshot-interval *=.*/snapshot-interval = 0/' $HOME/.celestia-app/con
 
 ---------------------------------------------------
 celestia-appd tendermint unsafe-reset-all --home $HOME/.celestia-app
-wallet
+
 ---------------------------------------------------
 
 celestia-appd config chain-id $CELESTIA_CHAIN
@@ -153,6 +153,5 @@ echo 'export CELESTIA_VALOPER='${CELESTIA_VALOPER} >> $HOME/.bash_profile
 source $HOME/.bash_profile 
 ---------------------------------------
  https://discord.gg/celestiacommunity
-wallet
 ------------------------------------- 
 celestia-appd q bank balances 
