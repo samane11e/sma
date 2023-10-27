@@ -111,8 +111,6 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
   WantedBy=multi-user.target  
 ---------------------------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
-----------------------------------------------------
-good
 -------------------------------------------
 sudo systemctl enable celestia-appd
 sudo systemctl daemon-reload
