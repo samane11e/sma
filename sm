@@ -138,7 +138,8 @@ sudo systemctl restart celestia-appd && journalctl -u celestia-appd
 
 curl -s localhost:26657/status _wallet
 ------------------------------------------------
-
+file
+--------------------------------
 slestia-appd keys add $CELESTIA_WALLET
 -----------------------------------
 CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET 
