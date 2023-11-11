@@ -130,7 +130,8 @@ lkj
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd 
  
 -------------------------------------------------
-
+goerli
+-------------------------------
 curl -s localhost:26657/status _wallet
 ------------------------------------------------
 slestia-appd keys add $CELESTIA_WALLET
