@@ -36,7 +36,7 @@ CELESTIA_CHAIN="sama"
 CELESTIA_NODENAME sama 
 CELESTIA_WALLET="sama"
 --------------------------------------------------------
-echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
+echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile.
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash
 echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $HOME/.bash_profile
 source $HOME/.bash_profile
@@ -71,7 +71,6 @@ s/^max-connections *=.*/max-connections = $max_connections/" $HOME/.celestia-app
 ---------------------------------------------------------
 pruning_keep_recent="100" 
 pruning_interval="10"
-
 ------------------------------------------------------
 
 sed -i -e "s/^pruning *=.*/pruning = \"custom\"/;\
