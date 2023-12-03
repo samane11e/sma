@@ -112,7 +112,8 @@ sudo systemctl restart celestia-appd && journalctl -u celestia-appd
 Press CTRL+C to stop the logs
 -------------------------------------------------------------
 sudo systemctl stop...
-
+----------------------------------------------------------
+vnom
 ------------------------------------------------------------
 cd $HOME
 rm -rf ~/.celestia-app/data
