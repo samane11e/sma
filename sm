@@ -98,7 +98,8 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
 [Install]
   WantedBy=multi-user.target  
 ---------------------------------------------------
-
+scroll
+-----------------------------------
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 -------------------------------------------
 sudo systemctl enable celestia-appd
