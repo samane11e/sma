@@ -81,7 +81,7 @@ sed -i 's/snapshot-interval *=.*/snapshot-interval = 0/' $HOME/.celestia-app/con
 ---------------------------------------------------
 celestia-appd tendermint unsafe-reset-all --home 
 ---------------------------------------------------
-ttttttttttttt89999999999999999999kkkkkkkkkk
+scroll
 ------------------------------------------------------------------
 celestia-appd config chain-id $CELESTIA_CHAIN
 celestia-appd config keyring-backend test
