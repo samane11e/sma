@@ -117,8 +117,6 @@ SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia
 wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME}
     -C ~/.celestia-app/data/
 ------------------------------------------------------------------
-tryd
------------------------------
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd 
  ----------------------------------------------------------------
 curl -s localhost:26657/status _wallet.
