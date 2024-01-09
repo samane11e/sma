@@ -29,8 +29,6 @@ cd $HOME
 rm -rf networks
 git clone https://github.com/celestiaorg/networks.git
 ---------------------------------
-venom
---------------------------
 CELESTIA_NODENAME="sma" 
 CELESTIA_WALLET="smaa"
 CELESTIA_CHAIN="sama"
