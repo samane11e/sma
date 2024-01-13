@@ -63,7 +63,7 @@ max_num_inbound_peers=40
 max_num_outbound_peers=10 
 max_connections=50...
 ----------------------------------------------------------------
-jkkkoo
+
 ---------------------------------
 sed -i -e "s/^use-legacy *=.*/use-legacy = false/;\
 s/^max-num-inbound-peers *=.*/max-num-inbound-peers = $max_num_inbound_peerssa
@@ -78,7 +78,7 @@ s/^pruning-keep-recent *=.*/pruning-keep-recent = \"$pruning_keep_recent\"/;\
 s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $HOME/.celestia-app/config/app.toml
 
 --------------------------------------------
-uyrertukkkgff
+
 -----------------------------
 sed -i 's/snapshot-interval *=.*/snapshot-interval = 0/' $HOME/.celestia-app/config/app.
 
