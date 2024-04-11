@@ -44,7 +44,7 @@ source $HOME/.bash_profile
 yrrthjlkm
 efdfvgh
 wdvikl
-ukdc
+uk
 
 ---------------------------------------------
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
