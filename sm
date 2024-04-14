@@ -42,9 +42,7 @@ source $HOME/.bash_profile
   
 ----------------------------------------------------  
 yrrthjlkm
-efdfvgh
-wdv
-
+efdfvg
 ---------------------------------------------
 celestia-appd init $CELESTIA_NODENAME --chain-id $CELESTIA_CHAIN
 -------------------------------------
