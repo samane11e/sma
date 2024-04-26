@@ -62,7 +62,7 @@ max_num_inbound_peers=40
 max_num_outbound_peers=10 
 max_connections=50...
 --------------------------------------------------------------
-tytijkk
+tytij
 -------------------------------------------------
 
 sed -i -e "s/^use-legacy *=.*/use-legacy = false/;\
