@@ -26,7 +26,9 @@ git clone https://github.com/celestiaorg/networks
 
 -------------------------------
 fffgtf
-----------------
+--------------------------
+werdsdxx
+---------------------------
 cd $HOME
 rm -rf networks
 git clone https://github.com/celestiaorg/networks.git
