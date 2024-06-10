@@ -25,7 +25,7 @@ celestia-appd version
 git clone https://github.com/celestiaorg/networks
 
 -------------------------------
-loiutr
+lo
 ---------------------------
 cd $HOME
 rm -rf networks
