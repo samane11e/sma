@@ -106,6 +106,8 @@ Press CTRL+C to stop the logs
 -------------------------------------------------------------
 sudo systemctl stop
 ------------------------------------------------------------
+ffgggttddssssss
+--------------------------------------
 cd $HOME
 rm -rf ~/.celestia-app/data
 mkdir -p ~/.celestia-app/data
