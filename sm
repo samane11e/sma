@@ -75,7 +75,8 @@ s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $HOME/.celes
 
 --------------------------------------------
 sed -i 's/snapshot-interval *=.*/snapshot-interval = 0/' $HOME/.celestia-app/config/app.
-
+---------------------------------------------------------------------------------------
+uyfttdxzddddddddddddddddddddddddddddddddddddddddd
 ---------------------------------------------------
 celestia-appd tendermint unsafe-reset-all --home 
 ---------------------------------------------------
@@ -104,9 +105,7 @@ sudo systemctl restart celestia-appd && journalctl -u celestia-appd
 Press CTRL+C to stop the logs
 -------------------------------------------------------------
 sudo systemctl stop
-------------------------------------------------------------
-
---------------------------------------
+---------------------------------------------------------
 cd $HOME
 rm -rf ~/.celestia-app/data
 mkdir -p ~/.celestia-app/data
